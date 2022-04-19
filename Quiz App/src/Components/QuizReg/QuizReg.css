@@ -1,0 +1,76 @@
+.main *{
+    font-family: Rajdhani, sans-serif;
+}
+
+.main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.register{
+    display:flex;
+    height: 60vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.quizStart{
+    width: 80%;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0));
+    border: 2px solid black;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title-text{
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.quizIcon{
+    display: flex;
+    justify-content: center;
+}
+.quizIcon img{
+    object-fit: cover;
+    border-radius: 100px;
+}
+.reg-text{
+    font-size: 60px;
+    color: #000000;
+    padding: 30px;
+    text-align: center;
+}
+.reg-name{
+    display: flex;
+    justify-content: center;
+}
+.username{
+    font-size: 25px;
+    color: #000000;
+    padding: 20px;
+    width: 55%;
+    background-color: rgb(255, 180, 30);
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+}
+::placeholder{
+    color: #000;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.start-text{
+    font-size: 30px;
+    padding: 10px;
+    color: #000;
+}
+a{
+    text-decoration: none;
+}

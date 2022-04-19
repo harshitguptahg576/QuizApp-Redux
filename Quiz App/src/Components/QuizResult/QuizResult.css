@@ -1,0 +1,13 @@
+.quizResult{
+    width: 70%;
+    filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.4));
+    border: 2px solid black;
+}
+.result-desc{
+    text-align: center;
+    color: #ffd043;
+    font-size: 22.5px;
+}
+.timetaken{
+    font-weight: 900;
+}
